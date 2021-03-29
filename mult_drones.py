@@ -13,6 +13,7 @@ from enum import auto
 from dronekit import connect, VehicleMode, LocationGlobalRelative, LocationGlobal, Command
 import time
 import math
+import os
 import random
 from pymavlink import mavutil
 import array as arr
@@ -38,7 +39,8 @@ for instance in range(dronesCreated):
 
 #implement connection and mission upload
 #FIXME import_mission_filename is the file path where files will be generated
-import_mission_filename = "/home/ryan/Documents/research/mission_generator/"
+cwd = os.getcwd()
+import_mission_filename = cwd + "/mission_generator/"
 sitl = None
 
 # Connect to the Vehicle
