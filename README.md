@@ -11,7 +11,8 @@ multidrone_script.py -n 4
 
 ----------------------------------------------------------------------------------------
 
-To test broadcasting and remoteID **run all in seperate terminals**:
+To test broadcasting and remoteID:
+**Note: run all in seperate terminals**
 
 run from broadcast directory:
 ./broadcast
