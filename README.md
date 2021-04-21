@@ -11,7 +11,7 @@ multidrone_script.py -n 4
 
 ----------------------------------------------------------------------------------------
 
-To test broadcasting and remoteID:
+To test broadcasting and remoteID **run all in seperate terminals**:
 
 run from broadcast directory:
 ./broadcast
@@ -22,5 +22,5 @@ launch code in vsc for:
 run:
 ./build/sitl/bin/arducopter -S -I1 --model + --speedup 1 --remoteid 616263646566303132333435363738397778797B --home 30.270083225404864,-97.76852481,0,225 --defaults ./Tools/autotest/default_params/copter.parm
 
-run from dronekit examples dir:
+run:
 python3 mult_drones.py -n 2
